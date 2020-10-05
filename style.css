@@ -1,0 +1,39 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #132743
+	/*height: 100vh;*/
+}
+button{
+background-color: #C62A88;
+color: white;
+padding: 10px 20px;
+border: 0px;
+cursor: pointer;
+border-radius: 50px 30px;
+transition: 0.8s all;
+}
+
+button:hover{
+border-radius:10px;
+transition: 0.5s all;
+}
+input{
+width: 20%;
+padding: 10px;
+border: 1px solid #C62A88;
+background:transparent;
+color: #C62A88;
+}
+strong{
+	color: #C62A88
+}
+h2{
+	color: #C62A88	
+}
+hr{
+	border-color: #590995;
+	height: 5px;
+	background-color: #C62A88;
+	width: 90%
+}

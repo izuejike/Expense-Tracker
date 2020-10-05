@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Expense Tracker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<fieldset>
+		<h2 style="text-align: center"><strong>Hello, Welcome To Izu's Expense Tracker</strong></h2><br><hr>
+		<div style="text-align: center">
+		<br><h2><span style="text-align: center" >Total Budget : <span id="totalBudget">0</span></span></h2>
+		<br><h2><span style="text-align: center">Current Balance: <span id="current">0</span></span></h2><br><hr>
+		</div>
+		<div style="text-align: center">
+		<br><h2><strong style="text-align: center">Add Money To Budget</strong></h2>
+		<input type="number" name="" placeholder="Input Amount" id="expenseInput">
+		<button style="text-align: center" onclick="addMoney()">Add Money</button><hr><br>
+		</div>
+		<br><h2 style="text-align: center"><b>Add Expenses</b></h2>
+		<div style="text-align: center">
+		<input type="text" name="" placeholder="Enter Expense Details" id="expenseName">
+		<input type="number" name="" placeholder="Enter Expense Amount" id="expenseAmount">
+		<button style="text-align: center" onclick="expenseDetails()">Add Expense</button>
+		</div>
+
+		<br><br><hr><h2 style="text-align: center"><b>Added Expenses</b></h2>
+		<div style="text-align: center;" id="expenseMenu">
+			
+			
+		</div>
+	</fieldset>
+
+
+
+
+<script src="expense.js"></script>
+</body>
+</html>
